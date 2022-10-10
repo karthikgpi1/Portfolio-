@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-// import resume from "../../Images/Resume.pdf";
+import resume from "../../Images/Karthik_Cv.pdf";
 import Me from "../../Images/k3.png";
 import { InfoContainer } from "./AboutElements";
 function About() {
@@ -15,7 +15,7 @@ function About() {
             <img src={Me} alt="my profile" className="image" />
           </div>
           <div className="content col-md-6 col-sm-12" data-aos="fade-left">
-            <h1 className="logo-text text-center py-md-5 py-xs-5">About Me</h1>
+            <h1 className="logo-text py-md-5 py-xs-5">About Me</h1>
             <p>
               I'm a passionate Front end developer with the goal of working on a
               project that solves problems with thoughtful UI design, creating
@@ -25,7 +25,7 @@ function About() {
               more. And I believe, I have did something creatively.
             </p>
 
-            {/* <a
+            <a
               className="btn btn-sm btn-success mt-3"
               rel="noreferrer"
               href={resume}
@@ -33,7 +33,7 @@ function About() {
               download
             >
               Download <i className="fad fa-download"></i>
-            </a> */}
+            </a>
           </div>
         </div>
       </InfoContainer>
